@@ -1,0 +1,4 @@
+do tui để ở trong public rồi bạn dựa vào cái README.md của tôi để sửa lại đường dẫn và cho tôi # Simple Auth Cách chạy project ### 1. Cài đặt
+bash
+npm install
+2. **Chạy Basic Auth** node basic_auth.js ![1758800574409](public/image/README/1758800574409.png) **Test postman** GET [http://localhost:3000/](http://localhost:3000/) * Username: admin * Password: 123456 ![1758801883050](public/image/README/1758801883050.png) GET: http://localhost:3000/secure ![1758801901333](public/image/README/1758801901333.png) GET http://localhost:3000/public ![1758801920502](public/image/README/1758801920502.png) 3. Cookie_Session_Auth POST: http://localhost:3001/login ![1758802027960](public/image/README/1758802027960.png) GET: http://localhost:3001/profile ![1758802106704](public/image/README/1758802106704.png) POST: http://localhost:3001/logout ![1758802158323](public/image/README/1758802158323.png)

@@ -8,6 +8,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cookieParser());
+app.use(express.urlencoded({ extended: true }));
 
 // Connect to MongoDB
 mongoose.connect("mongodb://127.0.0.1:27017/cookieApp")
